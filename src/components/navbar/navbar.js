@@ -44,7 +44,6 @@ const BackButton = Styled.button`
 `;
 
 export default function Navbar({currentPage}) {
-  console.log(currentPage);
   return (
     <StyledNavbar>
       <MarkContainer to="/">
