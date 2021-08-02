@@ -1,54 +1,44 @@
-<p align="center">
-  <a href="https://www.gatsbyjs.com/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter">
-    <img alt="Gatsby" src="https://www.gatsbyjs.com/Gatsby-Monogram.svg" width="60" />
-  </a>
-</p>
-<h1 align="center">
-  Gatsby minimal starter
-</h1>
+## Live Demo and Code
+
+You can also visit the project Live Demo here: [https://nifty-brahmagupta-a236a6.netlify.app/](https://nifty-brahmagupta-a236a6.netlify.app/)
+and view code on my [Github](https://github.com/iamtheozzy/can-my-cat-eat-that)
 
 ## 🚀 Quick start
 
-1.  **Create a Gatsby site.**
+This project was created using a gatsby starter template. To view this project please follow steps below.
 
-    Use the Gatsby CLI to create a new site, specifying the minimal starter.
+  ```shell
+  # install dependencies
+  npm install
+  ```
 
-    ```shell
-    # create a new Gatsby site using the minimal starter
-    npm init gatsby
-    ```
 
-2.  **Start developing.**
+1.  **Production ✨**
 
-    Navigate into your new site’s directory and start it up.
 
     ```shell
-    cd my-gatsby-site/
-    npm run develop
+    # Run build and start server
+    npm run build && npm run serve
     ```
 
-3.  **Open the code and start customizing!**
+2.  **Development 👷🏾‍♂️**
 
-    Your site is now running at http://localhost:8000!
 
-    Edit `src/pages/index.js` to see your site update in real-time!
+    ```shell
+    npm start
+    ```
+    The site is now running at http://localhost:8000 
 
-4.  **Learn more**
 
-    - [Documentation](https://www.gatsbyjs.com/docs/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+## Improvemments & Comments
 
-    - [Tutorials](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
+This project was really fun to create. The reality is there are endless improvements I would love to make to this project if time allows for it 😅
 
-    - [Guides](https://www.gatsbyjs.com/tutorial/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [API Reference](https://www.gatsbyjs.com/docs/api-reference/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Plugin Library](https://www.gatsbyjs.com/plugins?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-    - [Cheat Sheet](https://www.gatsbyjs.com/docs/cheat-sheet/?utm_source=starter&utm_medium=readme&utm_campaign=minimal-starter)
-
-## 🚀 Quick start (Gatsby Cloud)
-
-Deploy this starter with one click on [Gatsby Cloud](https://www.gatsbyjs.com/cloud/):
-
-[<img src="https://www.gatsbyjs.com/deploynow.svg" alt="Deploy to Gatsby Cloud">](https://www.gatsbyjs.com/dashboard/deploynow?url=https://github.com/gatsbyjs/gatsby-starter-minimal)
+* Clean up styles to follow bem closer
+* More atomic use of css variables
+* Remove redundant logic in components. Probably abstract to hooks
+* Write unit tests for interactions
+* Optimize image performance further
+* To show specific plant I decided to route to a single page. In hindsight I think this was a poor decision and didn't result in a great user experience. Hence the creation of the hideous back button in the nav when you're on a plant page. I believe a modal would have created a better UX and maybe even have been less code.
+  * However I did spent time creating the automated creation of the pages so i figured it would be worth it to show that work.
+* I wasn't very consisten using pixel values or rem values for space or fonts. I would have also liked to take the time to tokenize things like space.
