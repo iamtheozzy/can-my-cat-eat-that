@@ -1,0 +1,95 @@
+:root {
+  --dark-blue: #002138;
+  --light-blue: #E9F8FF;
+  --green: #006B40;
+  --yellow: #FFBC00;
+  --white: #FFFFFF;
+  --border-color: #DEE1E1;
+  --border-dropdown-color: #B0B6B7;
+  --border-radius: 32px;
+  --text-color-body: #364141;
+  --text-color-headers: #273333;
+  --text-color-accent: #515E5F;
+  --text-placeholder-color: #B0B6B7;
+  --font-size-large: 21px;
+  --font-size-medium: 16px;
+  --font-size-small: 13px;
+  --font-size-header: 40px;
+  --font-size-header-small: 32px;
+  --font-size-input: 24px;
+  --font-size-card-header: 18px;
+  --line-height-large: 24px;
+  --line-height-header: 21px;
+  --line-height-input: 21px;
+  --plant-page-title: 32px
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* // global resets */
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+fieldset {
+  border: 0;
+  padding: 0;
+  margin: 0;
+  min-width: 0;
+}
+
+legend {
+  display: table;
+}
+
+select {
+  appearance: none;
+  background-color: transparent;
+  border: none;
+  padding: 0 1em 0 0;
+  margin: 0;
+  width: 100%;
+  font-family: inherit;
+  font-size: inherit;
+  cursor: inherit;
+  line-height: inherit;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+button {
+	background: none;
+	color: inherit;
+	border: none;
+	padding: 0;
+	font: inherit;
+	cursor: pointer;
+	outline: inherit;
+}

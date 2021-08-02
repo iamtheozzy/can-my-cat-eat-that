@@ -12,18 +12,35 @@
     "start": "gatsby develop",
     "build": "gatsby build",
     "serve": "gatsby serve",
-    "clean": "gatsby clean"
+    "clean": "gatsby clean",
+    "storybook": "start-storybook -p 6006",
+    "build-storybook": "build-storybook"
   },
   "dependencies": {
     "@emotion/react": "^11.4.0",
     "@emotion/styled": "^11.3.0",
+    "autoprefixer": "^10.3.1",
     "gatsby": "^3.10.1",
     "gatsby-plugin-emotion": "^6.10.0",
     "gatsby-plugin-image": "^1.10.1",
+    "gatsby-plugin-react-helmet": "^4.10.0",
     "gatsby-plugin-sharp": "^3.10.2",
     "gatsby-source-filesystem": "^3.10.0",
+    "gatsby-transformer-json": "^3.10.0",
     "gatsby-transformer-sharp": "^3.10.0",
+    "normalize.css": "^8.0.1",
+    "postcss": "^8.3.6",
+    "postcss-flexbugs-fixes": "^5.0.2",
     "react": "^17.0.1",
-    "react-dom": "^17.0.1"
+    "react-dom": "^17.0.1",
+    "react-helmet": "^6.1.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.14.8",
+    "@storybook/addon-actions": "^6.3.5",
+    "@storybook/addon-essentials": "^6.3.5",
+    "@storybook/addon-links": "^6.3.5",
+    "@storybook/react": "^6.3.5",
+    "babel-loader": "^8.2.2"
   }
 }

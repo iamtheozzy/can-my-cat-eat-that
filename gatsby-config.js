@@ -1,20 +1,19 @@
 module.exports = {
   siteMetadata: {
-    siteUrl: "https://www.yourdomain.tld",
-    title: "can-my-cat-eat-that",
+    title: 'can-my-cat-eat-that',
   },
   plugins: [
-    "gatsby-plugin-emotion",
-    "gatsby-plugin-image",
-    "gatsby-plugin-sharp",
-    "gatsby-transformer-sharp",
+    'gatsby-plugin-emotion',
+    'gatsby-plugin-image',
+    'gatsby-plugin-sharp',
+    'gatsby-transformer-sharp',
+    `gatsby-transformer-json`,
+    `gatsby-plugin-react-helmet`,
     {
-      resolve: "gatsby-source-filesystem",
+      resolve: `gatsby-source-filesystem`,
       options: {
-        name: "images",
-        path: "./src/images/",
-      },
-      __key: "images",
-    },
-  ],
+        path: `./src/data/`
+      }
+    }
+  ]
 };
